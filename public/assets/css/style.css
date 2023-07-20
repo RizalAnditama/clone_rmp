@@ -1,0 +1,36 @@
+.bg-image {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-image::before {
+  content: "";
+  height: 60vh;
+  background-image: url("../education-concept-student-studying-brainstorming-campus-concept-close-up-students-discussing-their-subject-books-textbooks-selective-focus 1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.75;
+}
+
+.hero-text {
+  position: relative;
+}
+
+.search-school-input::placeholder {
+  color: black;
+}
+
+.search-school-input {
+  color: black;
+}
+
+.search-school-input:focus {
+  color: black;
+}
